@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rregistration Form</title>
+    <style>
+        form{
+            display:flex;
+            flex-direction:column;
+            align-item:center;
+        }
+        .container{
+            display:flex;
+            flex-direction:column;
+            width:25vw;
+        }
+        h1,p{text-align:center;
+        }
+        input{
+            margin:0.25em 0em 1em 0em;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+        input {
+            margin: 0.25em 0em 1em 0em;
+            outline: none;
+            padding: 0.5em;
+            border: none;
+            background-color: rgb(225, 225, 225);
+            border-radius: 0.25em;
+            color: black;
+            }
+        button {
+            padding: 0.75em;
+            border: none;
+            outline: none;
+            background-color: rgb(68, 18, 232);
+            color: white;
+            border-radius: 0.25em;
+        }
+        button:hover {
+        cursor: pointer;
+        background-color: rgb(41, 4, 164);
+        }
+    </style>
+</head>
+<h2 Align="'center" Registration Form</h2>
+<body><form>
+    <div class="container"><h1>Register</h1>
+    <div>
+        <label for="First Name">First Name:</label>
+        <input id="text" type="First Name" placeholder="enter your name"/>
+    </div>
+    <div>
+        <label for="Last Name">Last Name:</label>
+        <input id="text" type="Last Name" placeholder="enter your name"/>
+    </div>
+    <div>
+        <label for="Email">Email</label>
+        <input id="text" type="Email" placeholder="enter your email id"/>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder="enter your password"/> 
+    </div>
+   <div>
+        <label>
+        <input type="radio" name="r1" value="Female">Female</label>
+        <label>
+        <input type="radio" name="r1" value="male">Male</label>
+   </div>
+   <button type="Submit">Register</button>
+   <div><p><h6>Already have an account? <a href='#'></h6>Log In</a></p></div></div>
+</body>
+</html>
